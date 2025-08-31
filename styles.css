@@ -1,0 +1,16 @@
+body{
+    background-color: #cacaca;
+}
+
+.main_title{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.main_description{
+    background-color: bisque;
+    
+}
