@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articulos - Julian</title>
+    <script src="julian.js" defer></script>
+    <link rel="stylesheet" href="julian.css">
 </head>
 <body>
-    
+  <header>
+    <h1>Base de datos - Julián</h1>
+  </header>
+
+  <main>
+    <div class="botones">
+      <button onclick="mostrarCadena()">Cadena de búsqueda</button>
+      <button onclick="mostrarEncontrados()">Articulos encontrados</button>
+      <button onclick="mostrarInfo()">Información</button>
+      <button onclick="minimizarInfo()">Minimizar</button>
+      <button onclick="mostrarDOI()">Ver DOI</button>
+    </div>
+
+    <section id="panelResultados">
+      <p id="textoCadena" class="oculto">
+        Cadena utilizada: <code>"WEB DEVELOPMENT" AND "TOOLS" OR "EDUCATION" NOT "BUSSINES"</code>
+      </p>
+
+      <p id="textoEncontrados" class="oculto">
+        Documentos encontrados: <b id="totalEncontrados">1062</b>
+      </p>
+
+      <div id="articulos" class="oculto">
+        <h2>Artículos usados</h2>
+
+        <article>
+          <h3>Customizing a functional programming language for web development</h3>
+          <p><b>Autor:</b> Saša N. Malkov — <b>Año:</b> 2010 — <b>Revista:</b> Computer Languages, Systems & Structures</p>
+          <p><b>Resumen:</b> Personaliza Wafl para desarrollo web (documentos, datos, plantillas, diálogos, transacciones).</p>
+          <p><b>Palabras clave:</b> Functional programming, Web development, Wafl.</p>
+        </article>
+
+        <article>
+          <h3>Computing education using generative AI tools: A systematic literature review</h3>
+          <p><b>Autores:</b> Friday J. Agbo, Chris Olivia, Godsalvation Oguibe, Ismaila T. Sanusi, Godwin Sani — <b>Año:</b> 2025 — <b>Revista:</b> Computers and Education Open</p>
+          <p><b>Resumen:</b> Revisión de 78 estudios sobre IA generativa en educación; buenas prácticas y riesgos.</p>
+          <p><b>Palabras clave:</b> Computing education, Generative AI, LLM.</p>
+        </article>
+
+        <article>
+          <h3>Rhetoric by design: Using web development projects in the technical communication classroom</h3>
+          <p><b>Autor:</b> Gregory VanHoosier-Carey — <b>Año:</b> 1997 — <b>Revista:</b> Computers and Composition</p>
+          <p><b>Resumen:</b> Proyectos web para fortalecer la práctica retórica en comunicación técnica.</p>
+          <p><b>Palabras clave:</b> Pedagogy, Technical communication, Web.</p>
+        </article>
+      </div>
+
+      
+      <div id="doi" class="oculto">
+        <h2>DOIs</h2>
+        <ul>
+          <li> <b>Customizing a functional programming language for web development</b><a href="https://doi.org/10.1016/j.cl.2010.04.001" target="_blank"> 10.1016/j.cl.2010.04.001</a></li>
+          <li> <b>Computing education using generative AI tools: A systematic literature review</b><a href="https://doi.org/10.1016/j.caeo.2025.100266" target="_blank">10.1016/j.caeo.2025.100266</a></li>
+          <li> <b>Rhetoric by design: Using web development projects in the technical communication classroom</b><a href="https://doi.org/10.1016/S8755-4615(97)90008-6" target="_blank">10.1016/S8755-4615(97)90008-6</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small> <a href="julian.html"> REINICIAR </a> </small>
+  </footer>
+
 </body>
+  
 </html>
