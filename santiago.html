@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articulos - Santiago</title>
+    <link rel="stylesheet" href="santiago.css">   
+    <title>Artículos - Santiago</title>
 </head>
 <body>
-    
+    <header class="container_title">
+    <h1 class="main_title">Artículos - Santiago</h1>
+    <button class="list_button" onclick="showArticle1()">Artículo 1</button>
+    <button class="list_button" onclick="showArticle2()">Artículo 2</button>
+    <button class="list_button" onclick="showArticle3()">Artículo 3</button>
+        <button class="list_button" onclick="clearArticles()">Limpiar</button>
+    </header>
+
+    <main class="main_container">
+        <div class="general_info_container">
+            <p>Bienvenido a la sección de artículos elegidos por Santiago, dando clic en los botones de la parte superior, se visualizarán los contenidos de los correspondientes artículos. Adicionalmente, se puede limpiar la pantalla con el botón "Limpiar".</p>
+            <p>Algo importante a tener en cuenta es que los artículos fueron seleccionados en la base de datos Scopus.</p>
+        </div>
+        <div class="search_query_container">
+            <h3>Cadena de búsqueda construida:</h3>
+            <p class="search_query">"WEB DEVELOPMENT" AND RESPONSIVE AND (usability OR accessibility) AND NOT (mongo)</p>
+            <h3>Cantidad de artículos encontrados:</h3>
+            <p class="research_result">5268</p>
+        </div>
+        <div class="article1">
+            <h2>Artículo 1</h2>
+            <p>
+                <strong>Título:</strong> Light and Dark Mode: A Comparison Between Android and iOS App UI Modes and Interviews with App Designers and Developers.<br>
+                <strong>Autores:</strong> Andrew Sarah,Bishop Chelsea,Tigwell Garreth W.<br>
+                <strong>Año publicación:</strong> 2024.<br>
+                <strong>Fuente:</strong> Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies.<br>
+                <strong>Resumen:</strong> Se compara la implementación del modo claro y oscuro en 12 aplicaciones móviles, analizando las decisiones de diseño y desarrollo detrás de cada una, así como las percepciones de los usuarios sobre estas interfaces.<br>
+                <strong>Palabras clave:</strong>Android (operating system);Color changes; Creative process; Dark modes; Design and development process; Design decisions; Manual inspection; Mobile app; Mobile usability; Mode implementation;Design.<br>
+                <strong>DOI: <a href="https://doi.org/10.1145/3643539">Clic para consultar</a></strong>
+            </p>
+        </div>
+        <div class="article2">
+            <h2>Artículo 2</h2>
+            <p>
+                <strong>Título:</strong> Web application testing—Challenges and opportunities.<br>
+                <strong>Autores:</strong> Sebastian Balsam, Deepti Mishra.<br>
+                <strong>Año publicación:</strong> 2025.<br>
+                <strong>Fuente:</strong> Journal of Systems and Software.<br>
+                <strong>Resumen:</strong> Explora los retos de asegurar la calidad en interfaces web, centrándose en la necesidad de pruebas efectivas y la implementación de herramientas adecuadas para abordar estos desafíos.<br>
+                <strong>Palabras clave:</strong>Systematic literature review;Web application; Testing; Test models;Testing tools.<br>
+                <strong>DOI: <a href="https://doi.org/10.1016/j.jss.2024.112186">Clic para consultar</a></strong>
+            </p>
+        </div>
+        <div class="article3">
+            <h2>Artículo 3</h2>
+            <p>
+                <strong>Título:</strong>  AI-MDD-UX: Revolutionizing E-Commerce User Experience with Generative AI and Model-Driven Development.<br>
+                <strong>Autores:</strong> Alti Adel, Lakehal Abderrahim.<br>
+                <strong>Año publicación:</strong> 2025.<br>
+                <strong>Fuente:</strong> Future Internet.<br>
+                <strong>Resumen:</strong> Este artículo presenta un enfoque innovador para mejorar la experiencia del usuario en el comercio electrónico mediante el uso de inteligencia artificial generativa y desarrollo impulsado por modelos (MDD). Se exploran técnicas para la optimización de la interfaz de usuario y la adaptación dinámica a las necesidades del usuario, con el objetivo de crear interacciones más intuitivas y personalizadas.<br>
+                <strong>Palabras clave:</strong>generative AI; model-driven development (MDD); E-commerce UX/UI optimization; UI adaptation; AI-powered user interaction modeling.<br>
+                <strong>DOI: <a href="https://doi.org/10.3390/fi17040180">Clic para consultar</a></strong>
+            </p>
+        </div>
+    </main>
+    <script src="functions.js"></script>
 </body>
 </html>

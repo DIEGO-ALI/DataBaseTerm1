@@ -1,0 +1,85 @@
+body{
+    background-color: #2b2b2a;
+}
+.container_title{
+    text-align: center;
+    padding: 2px;
+    background-color: #a38cf0;
+}
+
+.main_title{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.list_button{
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: beige;
+    
+}
+
+.list_button:hover{
+    color: red;
+    background-color: #413e3e;
+    
+}
+
+.general_info_container{
+    padding: 10px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 11px;
+    margin-top: 5px;
+    background-color: #454543d0;
+}
+
+.search_query_container{
+    padding:1px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 11px;
+    margin-top: 5px;
+    background-color: #454543d0;
+    text-align: center;
+}
+
+.search_query{
+    border: solid 1px black;
+    width: fit-content;
+    padding: 5px;
+    background-color: #71716fd0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search_query:hover{
+    background-color: #5c5c5c;
+    color: aqua;
+}
+
+.article1{
+    border: solid 1px white;
+    border-radius: 11px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #8f8f8cc1;
+    visibility: hidden;
+}
+.article2{
+    visibility: hidden;
+    border: solid 1px white;
+    border-radius: 11px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #8f8f8cc1;
+}
+.article3{
+    visibility: hidden;
+    border: solid 1px white;
+    border-radius: 11px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #8f8f8cc1;
+}   
