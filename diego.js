@@ -25,7 +25,7 @@ document.getElementById("btnBusqueda").addEventListener("click", () => {
 
 "WEB DEVELOPMENT" AND ( "Machine Learning" OR "Big Data" ) AND NOT "Marketing" AND "2025"
 
-Resultados encontrados: 15`);
+Resultados encontrados: 188`);
 });
 
 ///// Mostrarmos los DOIs

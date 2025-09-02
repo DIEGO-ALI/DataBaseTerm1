@@ -40,6 +40,18 @@ button {
   font-weight: bold;
 }
 
+h6 {
+  padding: 8px 14px;
+  border: 1px solid #2d8cf0;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
 button:hover {
   background: #1a6fd1;
   border-color: #1a6fd1;
