@@ -3,104 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diego.css">
     <title>Artículos - Diego</title>
 </head>
 <body>
-
-
     <header>
-        <h2>Artículo - Diego</h2>
-        <button>Artículo 1</button>
-        <button>Artículo 2</button>
-        <button>Artículo 3</button>
+        <h2>Artículos - Diego</h2>
+        <button data-articulo="1">Artículo 1</button>
+        <button data-articulo="2">Artículo 2</button>
+        <button data-articulo="3">Artículo 3</button>
+        <button id="btnDOI">Mostrar DOIs</button>
     </header>
 
     <main>
-      <div>
-        <p>
-            Bienvenido a la sección de artículos elegidos por Diego, dando clic en los botones de la parte superior, se visualizarán los contenidos de los correspondientes artículos.
-        </p>
-        <ul>
-            <li>Base de datos utilizada para consultas: "Colocar el nombre de la base de datos"</li>
-            <li> Acá decir que una función va a funcionar de tal manera, definir y luego aclarar. 
-                <ol>1.</ol> 
-                <ol>2.</ol>
-            </li>
-        </ul>
-            
-      </div>  
-
-    <div>
-     <!---   ///Esta  sección quiero que tenga como un boton para que al oprimir se vsualice en un ventana emergente la cadena de busqueda realizada////
-
-      
-            <h3>Cadena de búsqueda Elaborada:</h3>
-
-            <p>"WEB DEVELOPMENT" AND (Colocar una cadena en ingles sobre y cualquier tipo) NOT (Definir tambien otro filtro) AND  (Definir tambien otro filtro)
+        <div>
+            <p class="TextoInciial">
+                Bienvenido a la sección de artículos elegidos por Diego, dando clic en los botones de la parte superior, se visualizarán los contenidos de los correspondientes artículos.
             </p>
+        </div>  
 
-            <h3>Cantidad de artículos encontrados:</h3>
-            <p>Poner número</p>
-        
+        <div class="btnBusqueda-Principal">
+            <button id="btnBusqueda" type="button">Cadena de búsqueda Elaborada en sciencedirect.com</button>
+        </div>
 
-     
-     
-     ---> 
-     <button type="button">Cadena de busqueda Elaborada</button>
-    </div>
-        <section>
+        <section id="articulo1" class="articulo oculto">
             <h3>Artículo #1</h3>
             <article>
-            <!-- "Tener en cuenta el em: para algo de importacia y strong para algo muy importante" <p> 
-                                <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
-                            </p>
-                -->
-
-                <p><b>Título:</b> Titulo del artículo</p>    
-                <p><b>Autores:</b> Autores del artículo</p>
-                <p><b>Año públicación:</b> Año de publicación del artículo</p>
-                <p><b>Fuente:</b> Fuente del artículo</p>
-                <p><b>Resumen:</b> Resumen del artículo</p>
-                <p><b>Palabras claves:</b> palabras claves</p> 
+                <p><b>Título:</b> Big Data Analytics of Knowledge and Skill Sets</p>    
+                <p><b>Autores:</b> Tanupriya Choudhury, Deepti Gaur, Sachin Sharma, Shilpi Sharma</p>
+                <p><b>Año publicación:</b> A2023</p>
+                <p><b>Fuente:</b> Procedia Computer Science, Vol. 218, pp. 244-251</p>
+                <p><b>Resumen:</b> El artículo explora cómo las técnicas de analítica de Big Data pueden aplicarse al análisis de conocimientos y competencias, con el objetivo de mejorar procesos educativos y de gestión de talento. Presenta metodologías basadas en minería de datos y algoritmos de aprendizaje para identificar patrones en grandes conjuntos de información relacionados con habilidades.</p>
+                <p><b>Palabras claves:</b> Big Data, Knowledge analytics, Skill set analysis, Data mining, Educational analytics</p> 
             </article>
-                <button>Cerrar artículo con un icono se veria chevere</button>
+            <button class="cerrar">Cerrar artículo</button>
         </section>
 
-        <section>
-            <h3>Artículo #1</h3>
+        <section id="articulo2" class="articulo oculto">
+            <h3>Artículo #2</h3>
             <article>
-            <!-- "Tener en cuenta el em: para algo de importacia y strong para algo muy importante" <p> 
-                                <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
-                            </p>
-                -->
-
-                <p><b>Título:</b> Titulo del artículo</p>    
-                <p><b>Autores:</b> Autores del artículo</p>
-                <p><b>Año públicación:</b> Año de publicación del artículo</p>
-                <p><b>Fuente:</b> Fuente del artículo</p>
-                <p><b>Resumen:</b> Resumen del artículo</p>
-                <p><b>Palabras claves:</b> palabras claves</p> 
+                <p><b>Título:</b> Cloud-native workflow framework for stream processing: a comparative study</p>    
+                <p><b>Autores:</b> AVinicius Silva, Luiz Angelo Steffenel</p>
+                <p><b>Año publicación:</b> 2024</p>
+                <p><b>Fuente:</b> RITA - Revista de Informática Teórica e Aplicada, Vol. 31, Nº 1, pp. 32-49</p>
+                <p><b>Resumen:</b> Este estudio analiza diferentes frameworks cloud-native para procesamiento de flujos de datos en tiempo real. Se comparan arquitecturas y modelos de despliegue, destacando ventajas, limitaciones y aplicaciones en escenarios de Big Data y analítica en la nube.o</p>
+                <p><b>Palabras claves:</b> pStream processing, Cloud-native, Workflow frameworks, Big Data, Comparative study</p> 
             </article>
-                <button>Cerrar artículo con un icono se veria chevere</button>
+            <button class="cerrar">Cerrar artículo</button>
         </section>
 
-        <section>
-            <h3>Artículo #1</h3>
+        <section id="articulo3" class="articulo oculto">
+            <h3>Artículo #3</h3>
             <article>
-            <!-- "Tener en cuenta el em: para algo de importacia y strong para algo muy importante" <p> 
-                                <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
-                            </p>
-                -->
-
-                <p><b>Título:</b> Titulo del artículo</p>    
-                <p><b>Autores:</b> Autores del artículo</p>
-                <p><b>Año públicación:</b> Año de publicación del artículo</p>
-                <p><b>Fuente:</b> Fuente del artículo</p>
-                <p><b>Resumen:</b> Resumen del artículo</p>
-                <p><b>Palabras claves:</b> palabras claves</p> 
+                <p><b>Título:</b> A Hybrid Machine Learning Model for Efficient XML Parsing</p>    
+                <p><b>Autores:</b> Priyanka Kumari, Gaurav Sharma, Saurabh Raj</p>
+                <p><b>Año publicación:</b> 2024</p>
+                <p><b>Fuente:</b> International Journal of Intelligent Systems and Applications (IJISA), Vol. 16, Nº 1, pp. 45-58</p>
+                <p><b>Resumen:</b> REl artículo propone un modelo híbrido basado en machine learning para optimizar el análisis de documentos XML. El enfoque combina algoritmos tradicionales con aprendizaje automático, logrando mejoras en eficiencia y precisión al procesar datos estructurados de gran tamaño.</p>
+                <p><b>Palabras claves:</b> XML parsing, Hybrid model, Machine learning, Data processing, Algorithm efficiency</p> 
             </article>
-                <button>Cerrar artículo con un icono se veria chevere</button>
+            <button class="cerrar">Cerrar artículo</button>
         </section>
+
+        <div id="contenedor"></div>
     </main> 
+
+    
+    <script src="diego.js"></script>
 </body>
 </html>

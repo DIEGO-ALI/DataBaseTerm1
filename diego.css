@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111; 
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #223;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h2 {
+  margin-bottom: 1rem;
+  color: #ff4c4c; /* rojo suave */
+}
+
+header button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: #ff2a2a;
+}
+
+main {
+  padding: 1rem;
+}
+
+.articulo {
+  background-color: #222;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #ff4c4c;
+  border-radius: 8px;
+}
+
+.articulo h3 {
+  color: #ff4c4c;
+}
+
+.articulo button.cerrar {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.articulo button.cerrar:hover {
+  background-color: #ff4c4c;
+}
+
+/* Ocultar por defecto */
+.oculto {
+  display: none;
+}
+
+.btnBusqueda-Principal {
+    margin-top: 3rem;
+    margin-left:38rem;
+}
+
+#btnBusqueda {
+  background-color: #444;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ff4c4c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnBusqueda:hover {
+  background-color: #ff4c4c;
+}
+
+p.TextoInciial{
+    text-align: center;
+}
